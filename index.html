@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Haru Fashion</title>
+    <style>
+        @font-face {
+            font-family: gilroy;
+            src: url();
+        }
+        *{ 
+            font-family: gilroy;
+        }
+    </style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main w-full h-fit ">
+        
+            <div class="first border-black border-b-2 w-full h-fit  flex flex-col lg:flex-row px-5 py-5 ">
+                <div class="left w-full lg:w-fit h-full flex flex-col gap-3 px-5" >
+                    <h1 class="font-normal text-center lg:text-start text-3xl lg:text-4xl">Shopping Cart</h1>
+                <a href="" class="flex items-center gap-1 text-lg w-fit">
+                    <i class="ri-arrow-left-s-line"></i> <h1 class="capitalize">continue shopping</h1></a>
+                <div class="border-b-2 border-black border-t-2 border-black capitalize flex gap-5 font-medium lg:justify-around  py-3  lg:w-[60vw]">
+                    <h1>product details</h1>
+                    <h1 class="hidden lg:flex">unit price</h1>
+                    <h1>quantity</h1>
+                    <h1>amount</h1>
+                </div>
+                <div class="flex gap-5 justify-between  py-3 items-center border-b-2 mb-16 border-black lg:justify-between lg:w-[60vw]">
+                    <div class="first w-fit h-fit lg:flex text-center items-center gap-2 ">
+                        <a href=""><div class="img w-[110px] h-[150px] bg-black"></div></a>
+                        <h1 class="capitalize">ronstring</h1>
+                    </div>
+                        <h1 class="opacity-50 hidden lg:flex">$ 134.08</h1>
+                        <div class="flex flex-col lg:flex-row mr-16">
+                            <a href="" class="border-2 border-black h-fit w-fit px-1">
+                                <i class="ri-subtract-line"></i>
+                            </a>
+                            <h1 class="lg:border-b-2 border-black border-l-2 lg:border-l-0 border-r-2 lg:border-r-0 lg:border-t-2 h-fit w-fit px-[9px] py-[0.5px]">1</h1>
+                            <a href="" class="border-2 border-black h-fit w-fit px-1">
+                                <i class="ri-add-line"></i>
+                            </a>
+                        </div>
+                        <div class="flex flex-col gap-1 ">
+                            <h1 class="opacity-50">$134.08</h1>
+                            <h1 class="text-xs text-center opacity-50">($134.08)</h1>
+                        </div>
+                        <a href="">
+                        <i class="ri-close-large-line opacity-50 text-4xl"></i>
+                        </a>
+                </div>
+                <button class=" px-7 py-2 w-fit capitalize border hover:bg-black hover:text-white border-black hidden lg:flex"> clear cart</button>
+                </div>
+        <div class="right  border-2 border-black px-5 py-5 flex flex-col gap-5 mb-12">
+<h1 class="border-b border-black capitalize font-medium text-xl pb-3">cart totals</h1>
+<div class=" flex justify-between items-center border-b border-black pb-3">
+<h1 class="uppercase font-normal">subtotal</h1>
+<h1>$134.08</h1>
+</div>
+<h1 class="uppercase font-normal">delivery</h1>
+
+<div class="inputs gap-3 flex flex-col font-medium capitalize">
+<div class="first flex justify-between">
+<div class="div">   
+     <input type="radio" name="" id="">
+    <label for="">store pickup</label>
+</div>
+    <h1>free</h1>
+</div>
+<div class="second flex justify-between">
+<div class="div">   
+     <input type="radio" name="" id="">
+    <label for="">Within Yangon</label>
+</div>
+    <h1>$ 2.00</h1>
+</div>
+<div class="third flex justify-between">
+<div class="div">   
+     <input type="radio" name="" id="">
+    <label for="">Other Cities</label>
+</div>
+    <h1>$ 7.00</h1>
+</div>
+
+</div>
+
+<div class="div capitalize border-t-2 flex items-center justify-between pt-3">
+    <h1>grand total</h1>
+    <h1>$ 134.08</h1>
+</div>
+
+<button class="bg-black text-white capitalize lg:w-[23vw] lg:py-3 py-5 text-xl hover:text-opacity-50">proceed to checkout</button>
+        </div>
+                
+                
+            </div>
+            <div class="second w-full h-fit">
+<div class="one h-fit w-full flex lg:items-center lg:justify-around mt-5 gap-5 capitalize flex-col lg:flex-row">
+    <div class="one h-fit w-fit flex px-5 flex-col gap-5 font-medium lg:text-lg">
+        <h1 class="opacity-50">company</h1>
+        <a href="">about us</a><a href="">contact us</a><a href="">store location</a><a href="">careers</a>
+    </div>
+    <div class="two h-fit w-fit flex px-5 flex-col gap-5 font-medium lg:text-lg">
+        
+        <h1 class="opacity-50">help</h1>
+        <a href="">order tracking</a><a href="">FAQs</a><a href="">privacy policy</a><a href="">terms & conditions</a>
+    </div>
+    <div class="three h-fit w-fit flex px-5 flex-col gap-5 font-medium lg:text-lg">
+        
+        <h1 class="opacity-50">store</h1>
+        <a href="">women</a><a href="">men</a><a href="">child</a> <a href="">bags</a>
+    </div>
+    <div class="four h-fit w-[300px] flex px-5 flex-col gap-5 font-medium lg:text-lg">
+        
+        <h1 class="opacity-50">keep in touch</h1>
+        <h1>No(7), Ground Floor,
+            Malikha Building, Yadanar Road,
+            Thingangyun, Yangon</h1>
+            <h1>+95 95 096 051</h1>
+            <h1>Open All Days
+                - 9:00 AM ~ 11:00 PM</h1>
+    </div>
+</div>
+<div class="two h-[50vh] bg-red-200 w-full capitalize flex flex-col justify-center items-center gap-3">
+    <h1 class="font-medium text-5xl">newsletter</h1>
+    <h1 class="font-medium text-sm tracking-wide">be the first to know about  new arivals,sales & promos!</h1>
+    <div class="div hidden lg:flex items-center">
+        <input type="text" class="border-2 border-black w-[20vw] h-[7vh] "> <button class="border-2 bg-black text-white px-8 py-4">send</button>
+    </div>
+</div>
+            </div>
+        </div>
+
+</body>
+</html>
